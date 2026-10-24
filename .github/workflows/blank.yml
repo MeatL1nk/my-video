@@ -15,3 +15,4 @@ jobs:
         with:
           name: rendered-video
           path: out/video.mp4
+
