@@ -1,0 +1,24 @@
+{
+  "name": "ai-history-video",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "remotion studio",
+    "render": "remotion render AI-History out/ai-history.mp4"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "typescript": "^5.4.5"
+  },
+  "optionalDependencies": {
+    "@next-rspack/binding-android-arm-eabi": "^1.0.3-beta.2",
+    "@next-rspack/binding-android-arm64": "^1.0.3-beta.2",
+    "@rspack/binding-android-arm64": "npm:null@*"
+  }
+}
